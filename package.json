@@ -1,0 +1,19 @@
+{
+  "name": "io.cypress.docs",
+  "version": "1.0.0",
+  "description": "Test Automation Framework on Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "automation",
+    "cypress"
+  ],
+  "author": "Maksym Krutskykh",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  }
+}
