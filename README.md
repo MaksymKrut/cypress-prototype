@@ -1,4 +1,4 @@
-# Using prototype (@WIP September 23-25, 2024)
+# Cypress Prototype (@WIP September 23-25, 2024)
 
 ## Libraries and techniques used
 Used DOM parent/child hierarchy.
@@ -19,7 +19,14 @@ Asserting attribute of element contains value
 `cy.get("[role='dialog']").invoke('attr', 'class').should('contain', 'hidden')`  
 `cy.get('#firstName').parents('form').find('button').should('contain', 'Submit');`  
 
-## Useful links
+## Useful links 
+
+Cypress docs:  
+https://docs.cypress.io/guides/overview/why-cypress  
+https://docs.cypress.io/api/table-of-contents  
+
+Filip Hric Blog:  
+https://filiphric.com/cypress-basics-check-attributes-value-and-text  
 https://filiphric.com/waiting-in-cypress-and-how-to-avoid-it  
 https://filiphric.com/cypress-basics-xpath-vs-css-selectors  
 
