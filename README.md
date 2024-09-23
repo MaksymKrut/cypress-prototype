@@ -25,5 +25,5 @@ https://filiphric.com/cypress-basics-xpath-vs-css-selectors
 
 
 ## TODO
+Add PageObject model
 User interceptors and aliases
-Other advanced features
