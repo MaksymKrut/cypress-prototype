@@ -1,6 +1,10 @@
+import GuidesPage from "../pages/GuidesPage"
+ 
+const guidesPage = new GuidesPage()
+
 describe('Cypress Docs Guides page elements are visible and operable, assure that', () => {
   beforeEach(() => {
-    cy.visit('https://docs.cypress.io/guides/')
+    guidesPage.visit()
   }),
     it('visiting direct link redirects to overview page', () => {
       cy.url().should('include', '/overview/why-cypress/')
