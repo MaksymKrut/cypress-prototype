@@ -21,10 +21,10 @@ describe('Cypress Docs Guides page elements are visible and operable, assure tha
           cy.log("Accept all button found and clicked!")
         }
       })
-      cy.get("[role='dialog']").invoke('attr', 'class').should('contain', 'hidden')
+      cy.waitUntil(() => cy.get("[role='dialog']").invoke('attr', 'class').should('contain', 'hidden'))
       // cy.wait(5000)
     }),
-    it('verifying left menu on the guides page', () => {
+    it('verifying top menu on the guides page', () => {
       const guidesTopMenuSelector = "a[href*='why-cypress']"
       const apiTopMenuSelector = "a[href*='/api/table-of-contents']"
       const pluginsTopMenuSelector = "a[href*='plugins']"
@@ -38,15 +38,36 @@ describe('Cypress Docs Guides page elements are visible and operable, assure tha
       cy.get(faqTopMenuSelector).should('exist')
       cy.get(learnTopMenuSelector).should('exist')
     }),
-    it.only('verifying top menu on the guides page', () => {
+    it('verifying left menu on the guides page', () => {
       cy.get('button').contains('Overview')
+      cy.get('button').contains('Getting Started')
+      cy.get('button').contains('End-to-End Testing')
+      cy.get('button').contains('Component Testing')
+      cy.get('button').contains('Core Concepts')
+      cy.get('button').contains('Cypress Cloud')
+      cy.get('button').contains('Guides')
+      cy.get('button').contains('Continuous Integration')
+      cy.get('button').contains('Tooling')
+      cy.get('button').contains('References')
     }),
 
-    it.only('verifying right contents on the guides page', () => {
-      cy.get('button').contains('Overview')
+    it('verifying right contents on the guides page', () => {
+      cy.xpath("//li/a[contains(@href, 'youll-learn')]").should('exist')
+      cy.xpath("//li/a[contains(@href, 'nutshell')]").should('exist')
+      cy.xpath("//li/a[contains(@href, 'uses-Cypress')]").should('exist')
+      cy.xpath("//li/a[contains(@href, 'Cypress-ecosystem')]").should('exist')
+      cy.xpath("//li/a[contains(@href, 'Our-mission')]").should('exist')
+      cy.xpath("//li/a[contains(@href, 'Features')]").should('exist')
+      cy.xpath("//li/a[contains(@href, 'Test-types')]").should('exist')
+      cy.xpath("//li/a[contains(@href, 'Cypress-in-the-Real-World')]").should('exist')
+      cy.xpath("//li/a[contains(@href, 'Cypress-in-the-Real-World')]").then((element) => {
+        expect(element).to.have.text('Cypress in the Real World');
+      });
     }),
 
     it.only('verifying main content on the guides page', () => {
-      cy.get('button').contains('Overview')
+      cy.get('h1').contains('Why Cypress?')
+      cy.get('#In-a-nutshell').contains('In a nutshell')
+      cy.get('#Who-uses-Cypress').contains('Who uses Cypress?')
     })
 })
