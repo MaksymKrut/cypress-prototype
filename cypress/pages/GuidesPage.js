@@ -1,56 +1,57 @@
-class GuidesPage {
+export class GuidesPage {
+
   constructor() {
     this.url = "/guides/"
     this.title = "Comprehensive Cypress Test Automation Guide | Cypress Documentation"
+    this.selectors = {
+      cookiesDialogSelector: "[role='dialog']",
+      acceptAllButtonSelector: "button[class*='osano-cm-accept-all']",
+      guidesTopMenuSelector: "a[href*='why-cypress']",
+      apiTopMenuSelector: "a[href*='/api/table-of-contents']",
+      pluginsTopMenuSelector: "a[href*='plugins']",
+      examplesTopMenuSelector: "a[href*='examples/recipes']",
+      faqTopMenuSelector: "a[href*='using-cypress-faq']",
+      learnTopMenuSelector: "a[href*='learn.cypress.io']",
+    }
   }
 
   visit() {
     cy.visit(this.url)
   }
 
-  searchInput(text) {
-    return cy.get('input[name="search"]').first().type(text)
+  // Cookies dialog
+
+  cookiesDialog() {
+    return cy.get(this.selectors.cookiesDialogSelector)
   }
 
-  getSearchButton() {
-    return cy.get("#search > div.search-button > button").first()
+  acceptAllButton() {
+    return cy.get(this.selectors.acceptAllButtonSelector)
+  }
+  
+  // Top menu
+
+  guidesTopMenu() {
+    return cy.get(this.selectors.guidesTopMenuSelector)
   }
 
-  getHomeButton() {
-    return cy.get(
-      "#widget-navbar-217834 > ul > li:nth-child(1) > a > div > span"
-    )
+  apiTopMenu() {
+    return cy.get(this.selectors.apiTopMenuSelector)
   }
 
-  getSpecialButton() {
-    return cy.get(
-      "#widget-navbar-217834 > ul > li:nth-child(2) > a > div > span"
-    )
+  pluginsTopMenu() {
+    return cy.get(this.selectors.pluginsTopMenuSelector)
   }
 
-  getBlogButton() {
-    return cy.get(
-      "#widget-navbar-217834 > ul > li:nth-child(3) > a > div > span"
-    )
+  examplesTopMenu() {
+    return cy.get(this.selectors.examplesTopMenuSelector)
   }
 
-  getMegaMenuButton() {
-    return cy.get(
-      "#widget-navbar-217834 > ul > li.nav-item.dropdown.dropdown-hoverable.mega-menu.position-static > a > div > span"
-    )
+  faqTopMenu() {
+    return cy.get(this.selectors.faqTopMenuSelector)
   }
 
-  getAddOnsButton() {
-    return cy.get(
-      "#widget-navbar-217834 > ul > li:nth-child(5) > a > div > span"
-    )
-  }
-
-  getMyAccountLink() {
-    return cy.get(
-      "#widget-navbar-217834 > ul > li:nth-child(6) > a > div > span"
-    )
+  learnTopMenu() {
+    return cy.get(this.selectors.learnTopMenuSelector)
   }
 }
-
-module.exports = GuidesPage

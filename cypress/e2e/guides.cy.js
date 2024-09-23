@@ -1,5 +1,5 @@
-import GuidesPage from "../pages/GuidesPage"
- 
+import { GuidesPage } from "../pages/GuidesPage"
+
 const guidesPage = new GuidesPage()
 
 describe('Cypress Docs Guides page elements are visible and operable, assure that', () => {
@@ -16,31 +16,23 @@ describe('Cypress Docs Guides page elements are visible and operable, assure tha
       // Popup is conditional per region (VPN), need to cover both scenarios:
       // 1. Dialog with buttons is shown
       // 2. Just info dialog is shown
-      const cookiesDialogSelector = "[role='dialog']"
-      const acceptAllButtonSelector = "button[class*='osano-cm-accept-all']"
-      cy.get(cookiesDialogSelector).then(($cookiesDialog) => {
+      guidesPage.cookiesDialog().then(($cookiesDialog) => {
         // Check is button exist WITHOUT failing test, if missing
-        if ($cookiesDialog.find(acceptAllButtonSelector, { timeout: 5000 }).length) {
-          $cookiesDialog.find(acceptAllButtonSelector).click()
+        if ($cookiesDialog.find(guidesPage.selectors.acceptAllButtonSelector, { timeout: 5000 }).length) {
+          $cookiesDialog.find(guidesPage.selectors.acceptAllButtonSelector).click()
           cy.log("Accept all button found and clicked!")
         }
       })
-      cy.waitUntil(() => cy.get("[role='dialog']").invoke('attr', 'class').should('contain', 'hidden'))
+      cy.waitUntil(() => cy.get(guidesPage.selectors.cookiesDialogSelector).invoke('attr', 'class').should('contain', 'hidden'))
       // cy.wait(5000)
     }),
-    it('verifying top menu on the guides page', () => {
-      const guidesTopMenuSelector = "a[href*='why-cypress']"
-      const apiTopMenuSelector = "a[href*='/api/table-of-contents']"
-      const pluginsTopMenuSelector = "a[href*='plugins']"
-      const examplesTopMenuSelector = "a[href*='examples/recipes']"
-      const faqTopMenuSelector = "a[href*='using-cypress-faq']"
-      const learnTopMenuSelector = "a[href*='learn.cypress.io']"
-      cy.get(guidesTopMenuSelector).should('exist')
-      cy.get(apiTopMenuSelector).should('exist')
-      cy.get(pluginsTopMenuSelector).should('exist')
-      cy.get(examplesTopMenuSelector).should('exist')
-      cy.get(faqTopMenuSelector).should('exist')
-      cy.get(learnTopMenuSelector).should('exist')
+    it.only('verifying top menu on the guides page', () => {
+      guidesPage.guidesTopMenu().should('exist')
+      guidesPage.apiTopMenu().should('exist')
+      guidesPage.pluginsTopMenu().should('exist')
+      guidesPage.examplesTopMenu().should('exist')
+      guidesPage.faqTopMenu().should('exist')
+      guidesPage.learnTopMenu().should('exist')
     }),
     it('verifying left menu on the guides page', () => {
       cy.get('button').contains('Overview')
@@ -69,7 +61,7 @@ describe('Cypress Docs Guides page elements are visible and operable, assure tha
       });
     }),
 
-    it.only('verifying main content on the guides page', () => {
+    it('verifying main content on the guides page', () => {
       cy.get('h1').contains('Why Cypress?')
       cy.get('#In-a-nutshell').contains('In a nutshell')
       cy.get('#Who-uses-Cypress').contains('Who uses Cypress?')

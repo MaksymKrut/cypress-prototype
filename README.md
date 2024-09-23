@@ -27,10 +27,11 @@ https://docs.cypress.io/api/table-of-contents
 
 Filip Hric Blog:  
 https://filiphric.com/cypress-basics-check-attributes-value-and-text  
+https://filiphric.com/use-session-instead-of-login-page-object-in-cypress
 https://filiphric.com/waiting-in-cypress-and-how-to-avoid-it  
 https://filiphric.com/cypress-basics-xpath-vs-css-selectors  
 
 
 ## TODO
-Add PageObject model
-User interceptors and aliases
+Add PageObject model - DONE
+User interceptors and aliases - TODO
