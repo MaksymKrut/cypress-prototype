@@ -1,5 +1,4 @@
-## Using prototype 
-
+# Using prototype 
 
 ## Libraries and techniques used
 Used DOM parent/child hierarchy.
@@ -17,12 +16,12 @@ Used assertions API like 'expect' and 'should'.
 
 ## Useful gists
 Asserting attribute of element contains value
-`cy.get("[role='dialog']").invoke('attr', 'class').should('contain', 'hidden')`
-`cy.get('#firstName').parents('form').find('button').should('contain', 'Submit');`
+`cy.get("[role='dialog']").invoke('attr', 'class').should('contain', 'hidden')`  
+`cy.get('#firstName').parents('form').find('button').should('contain', 'Submit');`  
 
 ## Useful links
-https://filiphric.com/waiting-in-cypress-and-how-to-avoid-it
-https://filiphric.com/cypress-basics-xpath-vs-css-selectors
+https://filiphric.com/waiting-in-cypress-and-how-to-avoid-it  
+https://filiphric.com/cypress-basics-xpath-vs-css-selectors  
 
 
 ## TODO
