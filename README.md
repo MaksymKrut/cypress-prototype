@@ -1,4 +1,4 @@
-# Using prototype 
+# Using prototype (@WIP September 23-25, 2024)
 
 ## Libraries and techniques used
 Used DOM parent/child hierarchy.
