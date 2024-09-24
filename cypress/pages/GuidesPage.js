@@ -1,4 +1,4 @@
-export class GuidesPage {
+class GuidesPage {
 
   constructor() {
     this.url = "/guides/"
@@ -55,3 +55,5 @@ export class GuidesPage {
     return cy.get(this.selectors.learnTopMenuSelector)
   }
 }
+
+export default GuidesPage

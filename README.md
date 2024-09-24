@@ -1,5 +1,10 @@
 # Cypress Prototype (@WIP September 23-25, 2024)
 
+## Using prototype
+1. Clone repository locally
+2. Start cypress instance with `npx cypress open`
+3. Choose tests to run
+
 ## Libraries and techniques used
 Used DOM parent/child hierarchy.
 Assertion that element in exact place of the DOM with ability to add condition WITHOUT failing the test.
@@ -25,13 +30,17 @@ Cypress docs:
 https://docs.cypress.io/guides/overview/why-cypress  
 https://docs.cypress.io/api/table-of-contents  
 
-Filip Hric Blog:  
+Cypress blog:  
+https://cypress.io/blog/stop-using-page-objects-and-start-using-app-actions  
+
+Filip Hric blog:  
 https://filiphric.com/cypress-basics-check-attributes-value-and-text  
-https://filiphric.com/use-session-instead-of-login-page-object-in-cypress
+https://filiphric.com/use-session-instead-of-login-page-object-in-cypress  
 https://filiphric.com/waiting-in-cypress-and-how-to-avoid-it  
 https://filiphric.com/cypress-basics-xpath-vs-css-selectors  
 
 
 ## TODO
 Add PageObject model - DONE
-User interceptors and aliases - TODO
+Add Custom Commands - TODO
+Use interceptors and aliases - TODO

@@ -1,4 +1,4 @@
-import { GuidesPage } from "../pages/GuidesPage"
+import GuidesPage from "../pages/GuidesPage"
 
 const guidesPage = new GuidesPage()
 
@@ -19,14 +19,14 @@ describe('Cypress Docs Guides page elements are visible and operable, assure tha
       guidesPage.cookiesDialog().then(($cookiesDialog) => {
         // Check is button exist WITHOUT failing test, if missing
         if ($cookiesDialog.find(guidesPage.selectors.acceptAllButtonSelector, { timeout: 5000 }).length) {
-          $cookiesDialog.find(guidesPage.selectors.acceptAllButtonSelector).click()
+          $cookiesDialog.find(guidesPage.selectors.acceptAllButtonSelector).click() // Note: here clicking jQuery object not Cypress
           cy.log("Accept all button found and clicked!")
         }
       })
       cy.waitUntil(() => cy.get(guidesPage.selectors.cookiesDialogSelector).invoke('attr', 'class').should('contain', 'hidden'))
       // cy.wait(5000)
     }),
-    it.only('verifying top menu on the guides page', () => {
+    it('verifying top menu on the guides page', () => {
       guidesPage.guidesTopMenu().should('exist')
       guidesPage.apiTopMenu().should('exist')
       guidesPage.pluginsTopMenu().should('exist')
