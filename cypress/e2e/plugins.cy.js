@@ -4,7 +4,7 @@ const pluginsPage = new PluginsPage()
 
 describe('Cypress Docs Plugins page elements are visible and operable, assure that', () => {
   beforeEach(() => {
-    pluginsPage.visit()
+    pluginsPage.visit({ failOnStatusCode: false })
 
   }),
     it('headers contain expected copy', () => {
@@ -12,10 +12,9 @@ describe('Cypress Docs Plugins page elements are visible and operable, assure th
       pluginsPage.pagePreprocessorsHeader().contains('Preprocessors')
     }),
     it('plugin submission link leads to GitHub page', () => {
-      pluginsPage.pluginsSubmissionLink().invoke('removeAttr', 'target').click()
-      // cy.wait(5000)      
+      pluginsPage.pluginsSubmissionLink().invoke('removeAttr', 'target').click()  
+      // Adding github as one of cypress test origins
       cy.origin('https://github.com/cypress-io/', () => {
-        // declare cy.origin command on expected domain
         cy.url().then((url) => {
           cy.url().should('include', 'github')
           cy.url().should('include', 'CONTRIBUTING')

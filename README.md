@@ -6,6 +6,10 @@
 3. Choose tests to run
 
 ## Libraries and techniques used
+Handling and asserting new window redirection (Plugins Page Test). 
+Cypress intentionally not supporting multi-window testing. 
+Workaround would be adding additional origin to cypress instance.
+
 Used DOM parent/child hierarchy.
 Assertion that element in exact place of the DOM with ability to add condition WITHOUT failing the test.
 
@@ -39,8 +43,12 @@ https://filiphric.com/use-session-instead-of-login-page-object-in-cypress
 https://filiphric.com/waiting-in-cypress-and-how-to-avoid-it  
 https://filiphric.com/cypress-basics-xpath-vs-css-selectors  
 
+## Tests Results
+
+![Guides Page Tests Results](support/guides.png)
+![Plugins Page Tests Results](support/plugins.png)
 
 ## TODO
-Add PageObject model - DONE
-Add Custom Commands - TODO
-Use interceptors and aliases - TODO
+Add PageObject model - DONE  
+Add Custom Commands - TODO  
+Use interceptors and aliases - TODO  
