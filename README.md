@@ -33,6 +33,7 @@ Asserting attribute of element contains value
 Cypress docs:  
 https://docs.cypress.io/guides/overview/why-cypress  
 https://docs.cypress.io/api/table-of-contents  
+https://docs.cypress.io/guides/guides/web-security#Different-superdomain-per-test-requires-cyorigin-command  
 
 Cypress blog:  
 https://cypress.io/blog/stop-using-page-objects-and-start-using-app-actions  
@@ -50,5 +51,5 @@ https://filiphric.com/cypress-basics-xpath-vs-css-selectors
 
 ## TODO
 Add PageObject model - DONE  
-Add Custom Commands - TODO  
+Add Custom Commands - DONE  
 Use interceptors and aliases - TODO  

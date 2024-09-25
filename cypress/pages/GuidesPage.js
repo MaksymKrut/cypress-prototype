@@ -6,12 +6,16 @@ class GuidesPage {
     this.selectors = {
       cookiesDialogSelector: "[role='dialog']",
       acceptAllButtonSelector: "button[class*='osano-cm-accept-all']",
+      cookiesDialogCloseSelector: "button[class*='osano-cm-close']",
       guidesTopMenuSelector: "a[href*='why-cypress']",
       apiTopMenuSelector: "a[href*='/api/table-of-contents']",
       pluginsTopMenuSelector: "a[href*='plugins']",
       examplesTopMenuSelector: "a[href*='examples/recipes']",
       faqTopMenuSelector: "a[href*='using-cypress-faq']",
       learnTopMenuSelector: "a[href*='learn.cypress.io']",
+      searchInputSelector: "//div[contains(@class, 'searchBox')]/button",
+      searchDialogInputSelector: "input[class*='DocSearch']",
+      searchDialogResultsListSelector: "#docsearch-list",
     }
   }
 
@@ -27,6 +31,10 @@ class GuidesPage {
 
   acceptAllButton() {
     return cy.get(this.selectors.acceptAllButtonSelector)
+  }
+  
+  cookiesDialogClose() {
+    return cy.get(this.selectors.cookiesDialogCloseSelector)
   }
   
   // Top menu
@@ -54,6 +62,19 @@ class GuidesPage {
   learnTopMenu() {
     return cy.get(this.selectors.learnTopMenuSelector)
   }
+
+  // Search dialog
+
+  searchInput() {
+    return cy.xpath(this.selectors.searchInputSelector)
+  }
+  searchDialogInput() {
+    return cy.get(this.selectors.searchDialogInputSelector)
+  }
+  searchDialogResultsList() {
+    return cy.get(this.selectors.searchDialogResultsListSelector)
+  }
+
 }
 
 export default GuidesPage

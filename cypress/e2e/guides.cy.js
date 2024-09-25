@@ -16,15 +16,8 @@ describe('Cypress Docs Guides page elements are visible and operable, assure tha
       // Popup is conditional per region (VPN), need to cover both scenarios:
       // 1. Dialog with buttons is shown
       // 2. Just info dialog is shown
-      guidesPage.cookiesDialog().then(($cookiesDialog) => {
-        // Check is button exist WITHOUT failing test, if missing
-        if ($cookiesDialog.find(guidesPage.selectors.acceptAllButtonSelector, { timeout: 5000 }).length) {
-          $cookiesDialog.find(guidesPage.selectors.acceptAllButtonSelector).click() // Note: here clicking jQuery object not Cypress
-          cy.log("Accept all button found and clicked!")
-        }
-      })
-      cy.waitUntil(() => cy.get(guidesPage.selectors.cookiesDialogSelector).invoke('attr', 'class').should('contain', 'hidden'))
-      // cy.wait(5000)
+      // Using custom handleCookiesDialog command defined in /support/commands.js file
+      cy.handleCookiesDialog()
     }),
     it('verifying top menu on the guides page', () => {
       guidesPage.guidesTopMenu().should('exist')
