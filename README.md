@@ -48,6 +48,7 @@ https://filiphric.com/cypress-basics-xpath-vs-css-selectors
 
 ![Guides Page Tests Results](support/guides.png)
 ![Plugins Page Tests Results](support/plugins.png)
+![Search Page Tests Results](support/search.png)
 
 ## TODO
 Add PageObject model - DONE  
