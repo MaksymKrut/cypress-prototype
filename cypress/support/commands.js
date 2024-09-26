@@ -28,23 +28,33 @@ import GuidesPage from "../pages/GuidesPage"
 
 const guidesPage = new GuidesPage()
 
-// -- Search on Cypress Documentation Website --
-Cypress.Commands.add('searchCypressDocs', (searchQuery) => {
-    guidesPage.searchInput().dblclick()
-    guidesPage.searchDialogInput().type(searchQuery)
-})
-
 // -- Handle cookies dialog --
 Cypress.Commands.add('handleCookiesDialog', () => {
     guidesPage.cookiesDialog().then(($cookiesDialog) => {
         // Check is button exist WITHOUT failing test, if missing
         if ($cookiesDialog.find(guidesPage.selectors.acceptAllButtonSelector, { timeout: 5000 }).length) {
             // Note: here clicking jQuery object not Cypress
-            $cookiesDialog.find(guidesPage.selectors.acceptAllButtonSelector).click() 
+            $cookiesDialog.find(guidesPage.selectors.acceptAllButtonSelector).click()
             cy.log("Accept all button found and clicked!")
         } else {
-            $cookiesDialog.find(guidesPage.selectors.cookiesDialogCloseSelector).click() 
+            $cookiesDialog.find(guidesPage.selectors.cookiesDialogCloseSelector).click()
         }
     })
     cy.waitUntil(() => cy.get(guidesPage.selectors.cookiesDialogSelector).invoke('attr', 'class').should('contain', 'hidden'))
+})
+
+// -- Search on Cypress Documentation Website --
+Cypress.Commands.add('searchCypressDocs', (searchQuery) => {
+    guidesPage.searchInput().dblclick()
+    guidesPage.searchDialogInput().type(searchQuery)
+})
+
+// -- Intercept and store response from requested URL --
+Cypress.Commands.add('interceptStoreResponse', (method, url, alias) => {
+    // cy.intercept(method, url).as('interceptedUrl')
+    cy.intercept(method, url, (req) => { 
+        req.continue(res => {
+            console.log(JSON.stringify(res.body, null, 2))
+        })
+    }).as(alias)
 })

@@ -1,0 +1,873 @@
+{
+    "results": [
+        {
+            "hits": [
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.Cookies",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/cypress-api/cookies#__docusaurus_skipToContent_fallback",
+                    "objectID": "f944fcd9a23c64bafc420b6ad01f06f30586a654",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.Cookies",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.Cookies",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.config",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/cypress-api/config#__docusaurus_skipToContent_fallback",
+                    "objectID": "f4f626f12bdf6505405d68e3a43dfabcfb7e90d8",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.config",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.config",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "Guides",
+                        "lvl1": "Your First Test with Cypress",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test#__docusaurus_skipToContent_fallback",
+                    "objectID": "f4326deee97b2c505098bcff206bf0cddaa7e252",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "Your First Test with <mark>Cypress</mark>",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "Guides",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "Your First Test with <mark>Cypress</mark>",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.arch",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/cypress-api/arch#__docusaurus_skipToContent_fallback",
+                    "objectID": "f09d78d555398111f73ec1908126a8d9abde9747",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.arch",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.arch",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "Guides",
+                        "lvl1": "Why Cypress?",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/guides/overview/why-cypress#__docusaurus_skipToContent_fallback",
+                    "objectID": "ed4323a08babae30b421cd76927a6c228d5d61ca",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "Why <mark>Cypress</mark>?",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "Guides",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "Why <mark>Cypress</mark>?",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "Guides",
+                        "lvl1": "Migrating from Selenium to Cypress",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/guides/end-to-end-testing/selenium-to-cypress#__docusaurus_skipToContent_fallback",
+                    "objectID": "e1dc60221e98567647a3037d0d046a8dbbfe43d1",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "Migrating from Selenium to <mark>Cypress</mark>",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "Guides",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "Migrating from Selenium to <mark>Cypress</mark>",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.version",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/cypress-api/version#__docusaurus_skipToContent_fallback",
+                    "objectID": "d92457bc1913052592f031ce696098484549e8c0",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.version",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.version",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.sinon",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/utilities/sinon#__docusaurus_skipToContent_fallback",
+                    "objectID": "d5899ed035afe33ab2cf05a1f972caa1d1dfbd74",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.sinon",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.sinon",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "Guides",
+                        "lvl1": "Introduction to Cypress",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/guides/core-concepts/introduction-to-cypress#__docusaurus_skipToContent_fallback",
+                    "objectID": "d577b092f799295c1eae9910198b3bb51743c496",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "Introduction to <mark>Cypress</mark>",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "Guides",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "Introduction to <mark>Cypress</mark>",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.dom",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/cypress-api/dom#__docusaurus_skipToContent_fallback",
+                    "objectID": "c783692eb8d17c41aa44525c45e3d64a8df9a9b6",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.dom",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.dom",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress._",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/utilities/_#__docusaurus_skipToContent_fallback",
+                    "objectID": "b54f444b6a65d5c131218b67d021bf690b217e46",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>._",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>._",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.Promise",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/utilities/promise#__docusaurus_skipToContent_fallback",
+                    "objectID": "ae81d5477836cb37b1f1e27fe7a6b5120c88dd79",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.Promise",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.Promise",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.SelectorPlayground",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/cypress-api/selector-playground-api#__docusaurus_skipToContent_fallback",
+                    "objectID": "ae56e11a675acc70a357fe6e871ef57f27c5269c",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.SelectorPlayground",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.SelectorPlayground",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "FAQ",
+                        "lvl1": "Cypress Cloud",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/faq/questions/cloud-faq#__docusaurus_skipToContent_fallback",
+                    "objectID": "ade52dfbe50998e9682511aea11e40e71999cad6",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark> Cloud",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "FAQ",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark> Cloud",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.isBrowser",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/cypress-api/isbrowser#__docusaurus_skipToContent_fallback",
+                    "objectID": "ab4c63f21bb8b06b0a42a9c06764c15b6816e803",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.isBrowser",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.isBrowser",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.session",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/cypress-api/session#__docusaurus_skipToContent_fallback",
+                    "objectID": "9d155b105779b2bbf8e7818cdb951cf2319b6cd7",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.session",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.session",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.isCy",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/cypress-api/iscy#__docusaurus_skipToContent_fallback",
+                    "objectID": "9a9846f5323aa6726978d945985a8f1d9209765b",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.isCy",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.isCy",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "Guides",
+                        "lvl1": "Cypress App",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/guides/core-concepts/cypress-app#__docusaurus_skipToContent_fallback",
+                    "objectID": "8ed79184f4c44ed51c65105157d1b6a078670640",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark> App",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "Guides",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark> App",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "Guides",
+                        "lvl1": "Cypress Cloud",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/guides/cloud/introduction#__docusaurus_skipToContent_fallback",
+                    "objectID": "8bc7c0ab9b5451e231b34017660147bfa9103ea6",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark> Cloud",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "Guides",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark> Cloud",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "content": null,
+                    "hierarchy": {
+                        "lvl0": "API",
+                        "lvl1": "Cypress.Keyboard",
+                        "lvl2": null,
+                        "lvl3": null,
+                        "lvl4": null,
+                        "lvl5": null,
+                        "lvl6": null
+                    },
+                    "type": "lvl1",
+                    "url": "https://docs.cypress.io/api/cypress-api/keyboard-api#__docusaurus_skipToContent_fallback",
+                    "objectID": "8829752a66fcbf87e1a3297b8a46b33e1aa2cfd3",
+                    "_snippetResult": {
+                        "hierarchy": {
+                            "lvl1": {
+                                "value": "<mark>Cypress</mark>.Keyboard",
+                                "matchLevel": "full"
+                            }
+                        }
+                    },
+                    "_highlightResult": {
+                        "hierarchy_camel": [
+                            {
+                                "lvl0": {
+                                    "value": "API",
+                                    "matchLevel": "none",
+                                    "matchedWords": []
+                                },
+                                "lvl1": {
+                                    "value": "<mark>Cypress</mark>.Keyboard",
+                                    "matchLevel": "full",
+                                    "fullyHighlighted": false,
+                                    "matchedWords": [
+                                        "cypress"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "nbHits": 2386,
+            "page": 0,
+            "nbPages": 50,
+            "hitsPerPage": 20,
+            "exhaustiveNbHits": false,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+                "nbHits": false,
+                "typo": true
+            },
+            "query": "Cypress",
+            "params": "query=Cypress&attributesToRetrieve=%5B%22hierarchy.lvl0%22%2C%22hierarchy.lvl1%22%2C%22hierarchy.lvl2%22%2C%22hierarchy.lvl3%22%2C%22hierarchy.lvl4%22%2C%22hierarchy.lvl5%22%2C%22hierarchy.lvl6%22%2C%22content%22%2C%22type%22%2C%22url%22%5D&attributesToSnippet=%5B%22hierarchy.lvl1%3A10%22%2C%22hierarchy.lvl2%3A10%22%2C%22hierarchy.lvl3%3A10%22%2C%22hierarchy.lvl4%3A10%22%2C%22hierarchy.lvl5%3A10%22%2C%22hierarchy.lvl6%3A10%22%2C%22content%3A10%22%5D&snippetEllipsisText=%E2%80%A6&highlightPreTag=%3Cmark%3E&highlightPostTag=%3C%2Fmark%3E&hitsPerPage=20&clickAnalytics=false&facetFilters=%5B%5D",
+            "index": "cypress_docs",
+            "processingTimeMS": 3,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 12
+                },
+                "fetch": {
+                    "scanning": 2,
+                    "total": 2
+                },
+                "total": 3
+            },
+            "serverTimeMS": 3
+        }
+    ]
+}

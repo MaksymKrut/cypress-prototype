@@ -53,4 +53,4 @@ https://filiphric.com/cypress-basics-xpath-vs-css-selectors
 ## TODO
 Add PageObject model - DONE  
 Add Custom Commands - DONE  
-Use interceptors and aliases - TODO  
+Use interceptors and aliases - DONE  
