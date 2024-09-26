@@ -1,4 +1,12 @@
-# Cypress Prototype (@WIP September 23-25, 2024)
+# Cypress Prototype
+
+## Author:  
+Maksym Krutskykh  
+MK Plus, LLC, Ottawa, Canada  
+Software Systems Development & Automation  
+Web: https://mk.plus/   
+LinkedIn: linkedin.com/in/maxkrut  
+Mobile: +1-250-3208951  
 
 ## Using prototype
 1. Clone repository locally
